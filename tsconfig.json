@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "allowJs": true,
+      "lib": ["es2015", "dom", "esnext"],
+      "suppressImplicitAnyIndexErrors": true,
+      "allowSyntheticDefaultImports": true,
+      "pretty": true,
+      "removeComments": true,
+      "outDir": "./dist",
+      "mapRoot": "./dist",
+    },
+    "files": [
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+      "**/*.ts",
+      "**/*.d.ts",
+      "**/*.tsx"
+    ],
+    "exclude": ["node_modules"]
+  }
+  
